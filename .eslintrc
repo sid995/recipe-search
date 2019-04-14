@@ -20,7 +20,8 @@
       {
         "ignorePureComponents": true
       }
-    ]
+    ],
+    "react/prop-types": [0]
   },
   "plugins": ["prettier", "fetch"],
   "parser": "babel-eslint"
