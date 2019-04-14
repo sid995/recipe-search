@@ -21,7 +21,9 @@
         "ignorePureComponents": true
       }
     ],
-    "react/prop-types": [0]
+    "react/prop-types": [0],
+    "react/jsx-no-target-blank": [0, { "enforceDynamicLinks": "never" }],
+    "react/destructuring-assignment": [0, "always", { "ignoreClassFields": true }]
   },
   "plugins": ["prettier", "fetch"],
   "parser": "babel-eslint"
