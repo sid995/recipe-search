@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
-export const recipes = [
+export const recipeList = [
   {
     recipe_id: 35382,
     image_url:
